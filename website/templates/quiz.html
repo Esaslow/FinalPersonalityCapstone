@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/static/quiz.css" />
+    <title>Elliotts Personality Quiz</title>
+</head>
+
+<body>
+    <img src="https://wisdmlabs.com/site/wp-content/uploads/2013/12/quiz-banner.jpg" />
+    <ul>
+        <li>
+            <a href="http://google.com">Google</a>
+        </li>
+        <li>
+            <a href="/about">About</a>
+        </li>
+        <li>
+            <a href="/faq">Faq</a>
+        </li>
+        <li>
+            <a href="/quiz">Mpg</a>
+        </li>
+    </ul>
+    <h1>Machine Learning for Personality Assesment</h1>
+
+    <div id="controls">
+      <div id='intro'>
+        <div>
+            <label>Welcome to the quiz game, press the start quiz button to begin</label>
+            <label id ='Q'></label>
+        </div>
+
+        <div>
+          <button id='Startquiz'>Start_quiz </button>
+        </div>
+      </div>
+        <div id='model0'>
+          <div class='Question'></div>
+          <div class='number'></div>
+
+              <div class="slidecontainer">
+              <label class='label'> Very Inaccurate </label>
+              <input type="range" min="1" max="50" value="25" class="slider" id="myRange">
+              <label class='label'> Very Accurate </label>
+              <div class="demo"></div>
+
+          </div>
+        </div>
+        <div id='model1'>
+          <div class='Question'></div>
+
+              <div class="slidecontainer">
+              <label class='label'> Very Inaccurate </label>
+              <input type="range" min="1" max="50" value="25" class="slider" id="myRange">
+              <label class='label'> Very Accurate </label>
+              <div class="demo"></div>
+
+          </div>
+        </div>
+        <div id='model2'>
+          <div class='Question'></div>
+          <div class='number'></div>
+
+              <div class="slidecontainer">
+              <label class='label'> Very Inaccurate </label>
+              <input type="range" min="1" max="50" value="25" class="slider" id="myRange">
+              <label class='label'> Very Accurate </label>
+              <div class="demo"></div>
+
+          </div>
+        </div>
+        <div id='model3'>
+          <div class='Question'></div>
+          <div class='number'></div>
+
+              <div class="slidecontainer">
+              <label class='label'> Very Inaccurate </label>
+              <input type="range" min="1" max="50" value="25" class="slider" id="myRange">
+              <label class='label'> Very Accurate </label>
+              <div class="demo"></div>
+
+          </div>
+        </div>
+        <div id='model4'>
+          <div class='Question'></div>
+          <div class='number'></div>
+
+              <div class="slidecontainer">
+              <label class='label'> Very Inaccurate </label>
+              <input type="range" min="1" max="50" value="25" class="slider" id="myRange">
+              <label class='label'> Very Accurate </label>
+              <div class="demo"></div>
+
+          </div>
+        </div>
+        <button class='GetNextQuestion'> Next Question </button>
+    </div>
+
+    
+    <div id ='Graph1'> </div>
+    <!-- <button id="hist-button"> Histogram Plot </button>
+    <div id = 'Graph2'> </div> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- put plotly into the app  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.35.2/plotly.min.js"></script>
+    <script src="/static/quiz.js"></script>
+    <script src="/static/slidebar.js"></script>
+</body>
+
+</html>
