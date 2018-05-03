@@ -9,7 +9,7 @@ from Friday_MVP_2.src import unpickle
 
 def load_model():
     print('Loading data...')
-    file_path = 'Friday_MVP_2/data/6QUestionModel'
+    file_path = 'Friday_MVP_2/data/2QUestionModel'
 
 
     with open(file_path, 'rb') as handle:
